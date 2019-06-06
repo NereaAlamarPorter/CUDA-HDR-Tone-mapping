@@ -1,0 +1,14 @@
+﻿  Compiling CUDA source file funcHDR.cu...
+  
+  C:\PGATR\CUDA\P5\P4>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64" -x cu  -ID:\opencv\opencv\build\include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc141.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\funcHDR.cu.obj "C:\PGATR\CUDA\P5\P4\funcHDR.cu" 
+C:/PGATR/CUDA/P5/P4/funcHDR.cu(55): warning : variable "i" was declared but never referenced
+C:/PGATR/CUDA/P5/P4/funcHDR.cu(100): warning : variable "thread" was declared but never referenced
+  funcHDR.cu
+C:/PGATR/CUDA/P5/P4/funcHDR.cu(193): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:/PGATR/CUDA/P5/P4/funcHDR.cu(231): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:/PGATR/CUDA/P5/P4/funcHDR.cu(246): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:/PGATR/CUDA/P5/P4/funcHDR.cu(288): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:/PGATR/CUDA/P5/P4/funcHDR.cu(318): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:/PGATR/CUDA/P5/P4/funcHDR.cu(335): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:/PGATR/CUDA/P5/P4/funcHDR.cu(335): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  P4.vcxproj -> C:\PGATR\CUDA\P5\x64\Debug\P5.exe
